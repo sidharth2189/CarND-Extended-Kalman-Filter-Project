@@ -30,22 +30,22 @@ For a row containing lidar data, the columns are: sensor_type, x_measured, y_mea
 In the simulator, one can find Data Set 1 which is above referred data set. Data set 2 is also included which is a reversed version of Data set 1. Also the second data set starts with a radar measurement where as the first data set starts with a lidar measurement. 
 
 The simulator is used to project estimation along side the sensor measurements and simulatneously displays the RMSE.
-Using just the Radar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below.
+Using just the Radar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below. The specified RMSE tolerance is not met.
 
 ![alt text][image1]
 
 
-Using just the Lidar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE is more for estimation using Radar than Lidar perhaps owing to low spatial resolution of Radar data.
+Using just the Lidar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE is more for estimation using Radar than Lidar perhaps owing to low spatial resolution of Radar data. The specified RMSE tolerance is not met.
 
 ![alt text][image2]
 
 
-Using both the Lidar and Radar measurement data (dataset 1) for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE in this case is less than RMSEs observed in case of estimations with either one of the sensors.
+Using both the Lidar and Radar measurement data (dataset 1) for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE in this case is less than RMSEs observed in case of estimations with either one of the sensors. The specified RMSE tolerance has been met.
 
 ![alt text][image3]
 
 
-Using both the Lidar and Radar measurement data (dataset 2) for estimation, the RMSE and estimation path observed can be seen in the image below.
+Using both the Lidar and Radar measurement data (dataset 2) for estimation, the RMSE and estimation path observed can be seen in the image below. The specified RMSE tolerance has been met.
 
 ![alt text][image4]
 
