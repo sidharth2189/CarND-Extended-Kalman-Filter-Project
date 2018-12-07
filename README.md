@@ -29,7 +29,8 @@ For a row containing lidar data, the columns are: sensor_type, x_measured, y_mea
 
 In the simulator, one can find Data Set 1 which is above referred data set. Data set 2 is also included which is a reversed version of Data set 1. Also the second data set starts with a radar measurement where as the first data set starts with a lidar measurement. 
 
-The simulator is used to project estimation along side the sensor measurements and simulatneously displays the RMSE.
+The simulator is used to project estimation along side the sensor measurements and simulatneously displays the RMSE. The Lidar measurement are red circles, the radar measurement are blue circles with an arrow pointing in the direction of the observed angle and the estimation markers are the green triangles.
+
 Using just the Radar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below. The specified RMSE tolerance is not met.
 
 ![alt text][image1]
