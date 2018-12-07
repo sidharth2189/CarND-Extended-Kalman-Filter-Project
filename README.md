@@ -1,6 +1,6 @@
 # Extended Kalman Filter Project
 
-The goal of this project is to utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The root mean square error (RMSE) values calculated by taking into account the state estimation and the ground truth should is required to be lower than the tolerance outlined in the [project rubric](https://review.udacity.com/#!/rubrics/748/view). 
+The goal of this project is to utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The root mean square error (RMSE) values calculated by taking into account the state estimation and the ground truth is required to be lower than the tolerance outlined in the [project rubric](https://review.udacity.com/#!/rubrics/748/view). 
 
 [//]: # (Image References)
 
