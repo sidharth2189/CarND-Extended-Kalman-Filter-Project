@@ -61,16 +61,15 @@ OUTPUT: values provided by the c++ program to the simulator
 In the simulator, one can find Data Set 1 which is above referred data set. Data set 2 is also included which is a reversed version of Data set 1. Also the second data set starts with a radar measurement where as the first data set starts with a lidar measurement. 
 
 The simulator is used to project estimation along side the sensor measurements and simulatneously displays the RMSE.
-
 Using just the Radar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below.
 
 ![alt text][image1]
 
-Using just the Lidar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE is more for estimation using Radar than Lidar perhaps owing to low spatial resolution of Radar data
+Using just the Lidar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE is more for estimation using Radar than Lidar perhaps owing to low spatial resolution of Radar data.
 
 ![alt text][image2]
 
-Using both the Lidar and Radar measurement data (dataset 1) for estimation, the RMSE and estimation path observed can be seen in the image below.It may be noted that the RMSE in this case is less than RMSEs observed in case of estimations with either one of the sensors.
+Using both the Lidar and Radar measurement data (dataset 1) for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE in this case is less than RMSEs observed in case of estimations with either one of the sensors.
 
 ![alt text][image3]
 
@@ -95,7 +94,7 @@ Using both the Lidar and Radar measurement data (dataset 2) for estimation, the 
 
 ## Basic Build Instructions
 
-1. Clone this repo.
+1. Clone the [reference repository](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project).
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make` 
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
