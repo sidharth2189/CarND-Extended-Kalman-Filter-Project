@@ -65,13 +65,16 @@ Using just the Radar measurement data for estimation, the RMSE and estimation pa
 
 ![alt text][image1]
 
+
 Using just the Lidar measurement data for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE is more for estimation using Radar than Lidar perhaps owing to low spatial resolution of Radar data.
 
 ![alt text][image2]
 
+
 Using both the Lidar and Radar measurement data (dataset 1) for estimation, the RMSE and estimation path observed can be seen in the image below. It may be noted that the RMSE in this case is less than RMSEs observed in case of estimations with either one of the sensors.
 
 ![alt text][image3]
+
 
 Using both the Lidar and Radar measurement data (dataset 2) for estimation, the RMSE and estimation path observed can be seen in the image below.
 
