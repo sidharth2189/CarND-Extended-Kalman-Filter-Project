@@ -72,7 +72,10 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
   VectorXd y = z - Hx;
   
   //adjust phi in y-vector to have a range of -pi to pi
-  //y(1) = -2 * 3.14 + y(1);
+  if (y(1) > 3.14 || y(1) < -3.14)
+  {
+    y(1) = -2 * 3.14 + y(1);
+  }
   
   MatrixXd Ht = H_.transpose();
   MatrixXd S = H_ * P_ * Ht + R_;
