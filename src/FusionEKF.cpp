@@ -89,14 +89,14 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
       /**
       Initialize state.
       */
-      ekf_.x_ << measurement_pack.raw_measurements_[0], measurement_pack.raw_measurements_[1], 1, 1;
+      ekf_.x_ << measurement_pack.raw_measurements_[0], measurement_pack.raw_measurements_[1], 0, 0;
     }
     else if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
       /**
       Convert radar from polar to cartesian coordinates and initialize state.
       */
       float rho_init = measurement_pack.raw_measurements_[0];  //rho
-      float phi_init = measurement_pack.raw_measurements_[1]; //phi
+      float phi_init = measurement_pack.raw_measurements_[1];  //phi
       float cosine_comp = cos(phi_init);
       float sine_comp = sin(phi_init);
       float px_init = rho_init * cosine_comp;
